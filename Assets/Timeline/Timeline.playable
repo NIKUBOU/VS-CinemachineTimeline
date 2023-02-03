@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8804491569246387690
+--- !u!114 &-8994304448891842861
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: 
   VirtualCamera:
-    exposedName: e67a8eec3175d2d43a686e3b6f467f03
+    exposedName: 1095ce6d38759f0468994a24d34bdc20
     defaultValue: {fileID: 0}
 --- !u!114 &-3256357581456224923
 MonoBehaviour:
@@ -38,16 +38,16 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 2.316666666666667
+    m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: 4093267559907971957}
-    m_Duration: 5.283333333333336
+    m_Asset: {fileID: 4864871674236058575}
+    m_Duration: 2.9
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3256357581456224923}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 1.7166666666666663
-    m_BlendOutDuration: 1.1000000000000032
+    m_BlendInDuration: -1
+    m_BlendOutDuration: 1.1333333333333333
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -107,85 +107,16 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Transition vcam
   - m_Version: 1
-    m_Start: 0
+    m_Start: 4.583333333333333
     m_ClipIn: 0
-    m_Asset: {fileID: 531030178506244601}
-    m_Duration: 4.033333333333333
+    m_Asset: {fileID: -8994304448891842861}
+    m_Duration: 2.966666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3256357581456224923}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: 1.7166666666666663
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: CM vcam1
-  - m_Version: 1
-    m_Start: 6.5
-    m_ClipIn: 0
-    m_Asset: {fileID: -8804491569246387690}
-    m_Duration: 2.166666666666666
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -3256357581456224923}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 1.1000000000000032
-    m_BlendOutDuration: 0.31666666666666643
+    m_BlendInDuration: 0.9333333333333336
+    m_BlendOutDuration: 1.1499999999999995
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -245,15 +176,15 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Transition vcam 2
   - m_Version: 1
-    m_Start: 8.35
+    m_Start: 6.4
     m_ClipIn: 0
-    m_Asset: {fileID: 7019850129409948919}
-    m_Duration: 0.7666666666666675
+    m_Asset: {fileID: 4255893168832633128}
+    m_Duration: 2.833333333333335
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3256357581456224923}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.31666666666666643
+    m_BlendInDuration: 1.1499999999999995
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -313,6 +244,75 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: Transition vcam 3
+  - m_Version: 1
+    m_Start: 1.7666666666666666
+    m_ClipIn: 0
+    m_Asset: {fileID: 8194719205344022068}
+    m_Duration: 3.75
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -3256357581456224923}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 1.1333333333333333
+    m_BlendOutDuration: 0.9333333333333336
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: CM vcam1
   m_Markers:
     m_Objects: []
 --- !u!114 &-2377162483941191937
@@ -420,22 +420,6 @@ MonoBehaviour:
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
---- !u!114 &531030178506244601
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
-  m_Name: CinemachineShot
-  m_EditorClassIdentifier: 
-  DisplayName: 
-  VirtualCamera:
-    exposedName: 4c2693312b1f94f47830ecb0fd8291b8
-    defaultValue: {fileID: 0}
 --- !u!74 &1407569226559501610
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -711,7 +695,7 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events: []
---- !u!114 &4093267559907971957
+--- !u!114 &4255893168832633128
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -725,7 +709,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: 
   VirtualCamera:
-    exposedName: 96825e508deaedf41aea245911091d1f
+    exposedName: 51d1a094a17fbd34ebd7018529b97ee0
+    defaultValue: {fileID: 0}
+--- !u!114 &4864871674236058575
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
+  m_Name: CinemachineShot
+  m_EditorClassIdentifier: 
+  DisplayName: 
+  VirtualCamera:
+    exposedName: 75d3338d762c98e449669bac9fa01e21
     defaultValue: {fileID: 0}
 --- !u!74 &6069785943791382492
 AnimationClip:
@@ -966,7 +966,7 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events: []
---- !u!114 &7019850129409948919
+--- !u!114 &8194719205344022068
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -980,5 +980,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: 
   VirtualCamera:
-    exposedName: b1d576eb0dc017640bd6df2feadb7d04
+    exposedName: 17849bf7bf87d4a4bb5595e603f3ff9d
     defaultValue: {fileID: 0}
